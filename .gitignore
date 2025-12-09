@@ -1,11 +1,18 @@
-# Data directories (too large for GitHub)
+# Data files (too large for GitHub)
 landing_zone/*.log
-processed/
-enriched/
-cleaned/
-analytics/
+processed/*.parquet
+processed/**/*.parquet
+enriched/*.parquet
+enriched/**/*.parquet
+cleaned/*.parquet
+cleaned/**/*.parquet
+analytics/*.json
 
-# Keep directory structure
+# Keep directory structure and documentation
+!processed/README.md
+!enriched/README.md
+!cleaned/README.md
+!analytics/README.md
 !landing_zone/.gitkeep
 !processed/.gitkeep
 !enriched/.gitkeep
@@ -32,4 +39,8 @@ Thumbs.db
 # Airflow
 airflow.cfg
 airflow.db
-webserver_config.pynano .gitignore
+webserver_config.py
+
+# Keep dags directory
+!dags/
+!dags/*.py

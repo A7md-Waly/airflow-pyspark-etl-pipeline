@@ -1,0 +1,35 @@
+# Data directories (too large for GitHub)
+landing_zone/*.log
+processed/
+enriched/
+cleaned/
+analytics/
+
+# Keep directory structure
+!landing_zone/.gitkeep
+!processed/.gitkeep
+!enriched/.gitkeep
+!cleaned/.gitkeep
+!analytics/.gitkeep
+
+# Docker volumes
+logs/
+plugins/__pycache__/
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Airflow
+airflow.cfg
+airflow.db
+webserver_config.pynano .gitignore

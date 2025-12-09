@@ -2,7 +2,7 @@
 
 A complete data engineering pipeline built with Apache Airflow and PySpark to process and analyze 10M+ web server access logs from an Iranian e-commerce website.
 
-## 📊 Project Overview
+## Project Overview
 
 This project demonstrates a production-grade ETL pipeline that:
 - Processes 3.5GB of raw Apache access logs (10M+ records)
@@ -14,7 +14,7 @@ This project demonstrates a production-grade ETL pipeline that:
 
 **Data Source:** [Web Server Access Logs - Kaggle](https://www.kaggle.com/datasets/eliasdabbas/web-server-access-logs)
 
-## 🏗️ Pipeline Architecture
+## Pipeline Architecture
 
 ```
 Raw Logs (3.5GB)
@@ -30,7 +30,7 @@ Cleaned Parquet (240MB)
 JSON Reports + Insights
 ```
 
-## 🚀 Technologies Used
+## Technologies Used
 
 - **Apache Airflow 2.10.3** - Workflow orchestration
 - **Apache Spark 3.5.0** - Distributed data processing
@@ -39,7 +39,7 @@ JSON Reports + Insights
 - **Python 3.12** - Scripting and data processing
 - **Parquet** - Columnar storage format
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
@@ -62,7 +62,7 @@ project/
 └── README.md
 ```
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Docker & Docker Compose installed
@@ -102,7 +102,7 @@ docker compose up -d
    - `data_quality_cleaning` - Clean and validate
    - `analytics_reports` - Generate insights
 
-## 📈 Pipeline Results
+## Pipeline Results
 
 ### Data Compression
 - **Raw logs:** 3.5GB
@@ -150,18 +150,18 @@ docker compose up -d
   - Status code distribution
 - **Output:** JSON reports per day
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
-- ✅ Building scalable ETL pipelines with Airflow
-- ✅ Processing large datasets with PySpark
-- ✅ Data quality best practices
-- ✅ Containerization with Docker
-- ✅ Workflow orchestration and scheduling
-- ✅ Parquet optimization for analytics
-- ✅ Real-world log parsing and analysis
+- Building scalable ETL pipelines with Airflow
+- Processing large datasets with PySpark
+- Data quality best practices
+- Containerization with Docker
+- Workflow orchestration and scheduling
+- Parquet optimization for analytics
+- Real-world log parsing and analysis
 
-## 📝 Future Enhancements
+## Future Enhancements
 
 - [ ] Bot detection and classification
 - [ ] Real-time streaming with Kafka
@@ -170,11 +170,3 @@ This project demonstrates:
 - [ ] Geolocation enrichment
 - [ ] Anomaly detection
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 🙏 Acknowledgments
-
-- Dataset provided by [Elias Dabbas on Kaggle](https://www.kaggle.com/eliasdabbas)
-- Apache Airflow and Spark communities

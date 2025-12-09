@@ -1,4 +1,5 @@
 # Big Data Pipeline - E-commerce Web Server Access Logs Analysis
+![Pipeline Architecture](https://github.com/A7md-Waly/airflow-pyspark-etl-pipeline/blob/main/DataPipeline.png)
 
 A complete data engineering pipeline built with Apache Airflow and PySpark to process and analyze 10M+ web server access logs from an Iranian e-commerce website.
 

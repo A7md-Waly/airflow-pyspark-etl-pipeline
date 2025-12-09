@@ -120,7 +120,7 @@ docker compose up -d
 - **Bot traffic:** ~60% of total traffic
 - **Peak URLs:** Static assets and API endpoints
 
-## 🔄 DAG Workflows
+##  DAG Workflows
 
 ### 1. Auto Parse Logs (`auto_process_any_log`)
 - **Schedule:** Every 5 minutes
@@ -160,13 +160,3 @@ This project demonstrates:
 - Workflow orchestration and scheduling
 - Parquet optimization for analytics
 - Real-world log parsing and analysis
-
-## Future Enhancements
-
-- [ ] Bot detection and classification
-- [ ] Real-time streaming with Kafka
-- [ ] Visualization dashboard (Grafana/Superset)
-- [ ] URL decoding for Persian text
-- [ ] Geolocation enrichment
-- [ ] Anomaly detection
-
